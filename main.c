@@ -3,6 +3,7 @@
 #include "rcamera.h"
 #include "rlgl.h"
 #include <stdio.h>
+#include "extras/physac.h"
 
 // point d'entrée du programme
 int main(void) {
@@ -37,6 +38,8 @@ int main(void) {
 
   // on créé la fenêtre aux dimensions demandées
   InitWindow(screenWidth, screenHeight, "Extreme Jokari");
+
+  InitPhysics();
 
   // fonction un peu plus avancée : je définis une caméra qui va me permettre
   // de scroller sur un écran virtuel plus grand (mais tu connais, c'est

@@ -1,0 +1,6 @@
+[submodule "ferox"]
+	path = ferox
+	url = git@github.com:c-krit/ferox.git
+[submodule "physac"]
+	path = physac
+	url = git@github.com:raysan5/physac.git
