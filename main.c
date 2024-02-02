@@ -1,8 +1,11 @@
+#include <stdio.h>
+
 #include "raylib.h"
 #include "raymath.h"
 #include "rcamera.h"
 #include "rlgl.h"
-#include <stdio.h>
+
+#define PHYSAC_IMPLEMENTATION
 #include "extras/physac.h"
 
 // point d'entrée du programme
